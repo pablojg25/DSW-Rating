@@ -1,0 +1,16 @@
+{
+    "name": "dsw/rating",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Dsw\\Rating\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrés Crespo",
+            "email": "acrerosj@canariaseducacion.es"
+        }
+    ],
+    "require": {}
+}
