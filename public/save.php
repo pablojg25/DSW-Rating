@@ -13,7 +13,8 @@
   } else {
     $rate = $_POST['rate'];
     $date = new DateTime();
-    $fileName = $date->format('Y_m_d_H_i') . '.csv';
+    $path = '../data/';
+    $fileName = $path . $date->format('Y_m_d_H_i') . '.csv';
     file_put_contents($fileName, $rate . ',' , FILE_APPEND);
 ?>
     <h1>Gracias por tu valoración</h1>
