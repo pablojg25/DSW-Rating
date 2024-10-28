@@ -49,3 +49,21 @@ button {
 .error {
   color: red;
 }
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td, th {
+  border: 1px solid indigo;
+  padding: 4px 10px;
+  text-align: right;
+}
+
+th {
+  background-color: indigo;
+  color: white;
+  text-align: center;
+}
+
